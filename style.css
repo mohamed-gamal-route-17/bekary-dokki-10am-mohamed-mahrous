@@ -1,0 +1,401 @@
+*{
+    font-family: 'Alegreya';
+    padding: 0px;
+    margin: 0px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/* general style  */
+
+.full-screen{
+    height: 100vh;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.background-image{
+    height: 100%;
+    background-image: url(./sources/images/drew-coffman-1872.jpg);
+    background-size: cover;
+}
+
+.background-color-white{
+    background-color: #fff;
+}
+.background-color-f8f8f8{
+    background-color: #f8f8f8;
+}
+
+.background-color-403d38{
+    background-color: #403d38;
+}
+.background-color-353330{
+    background-color: #353330;
+}
+
+.center {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+.left-float{
+    float: left;
+}
+.right-float{
+    float: right;
+}
+.img-size{
+    width: 100%;
+}
+
+.change-display{
+    display: inline-block;
+
+}
+
+.clear-fix{
+    clear: both;
+}
+
+
+
+/* 
+Navbar
+*/
+
+.navbar{
+position: relative;
+z-index: 3;
+top: 0px;
+
+
+}
+.navbar .container{
+    position: fixed;
+    width: 100%;
+    top: 0px;
+
+    /* background-color: white; */
+    color: #ffffff;
+}
+
+.logo{
+    width: 240px;
+    padding-right: 50px;
+}
+.logo img{
+    padding-left:30px ;
+    width: 100%;
+    /* filter: invert(60%) sepia(85%); */
+}
+
+.navbar li{
+    padding: 20px 10px;
+}
+.contact{
+    margin-right: 30px;
+}
+.navbar li:hover{
+    border-top: #8e7754 solid ;
+}
+/* 
+
+family-bakery Div
+*/
+
+
+.family-bakery .container {
+ 
+    color: #fff;
+    padding: 50px 50px;
+    position: relative;
+
+
+}
+
+
+.container .welcome-to {
+    font-size: 3vw;
+    font-weight: 700;
+    padding: 10px;
+
+
+} 
+
+h1 {
+    font-size: 5vw;
+    font-weight: 800;
+    padding: 30px ;
+
+}
+.family-bakery .container p{
+    font-size: 24px;
+}
+.learn-more,
+.contact-us {
+    color: #fff;
+    border: 0;
+    font-size: 2vw;
+    font-weight: 500;
+    margin: 20px;
+}
+
+.learn-more {
+    background-color: #8e7754;
+    padding: 20px;
+
+}
+
+.contact-us {
+    border: 2px white solid;
+    padding: 18px;
+    background-color: transparent;
+}
+
+.contact-us:hover,
+.learn-more:hover {
+    background-color: #fff;
+    color: #000;
+}
+/*
+Who We Are ?
+*/
+
+.who-we-are .container{
+    padding: 50px 50px;
+    margin-bottom: 50px;
+    margin-top:50px ;
+
+}
+.intro-image,.intro-description{
+    width: 50%;
+    padding-top: 50px;
+}
+.intro-image{
+    padding-right: 50px;
+
+}
+.intro-description{
+    padding-left: 50px;
+}
+ul {
+
+    list-style-type: none;
+}
+.who-we-are ul li:before {
+    content: '';
+    display: inline-block;
+    height: 4vw;
+    width: 4vw;
+    background-size: 4vw;
+
+    background-repeat: no-repeat;
+
+    margin-right: 1vw;
+
+}
+
+li {
+    padding-top: 1%;
+}
+
+.li1:before {
+    background-image: url("./sources/icon/1.png");
+
+}
+
+.li2:before {
+    background-image: url("./sources/icon/2.png");
+
+}
+
+.li3:before {
+    background-image: url("./sources/icon/3.png");
+
+}
+
+
+.li4:before {
+    background-image: url("./sources/icon/4.png");
+
+}
+
+h2 {
+    margin-top: 25px;
+    font-size: 3vw;
+
+}
+
+.intro-description p,
+ul {
+    font-size: 1.5vw;
+}
+ 
+
+
+
+
+/* 
+
+our-location Div
+*/
+
+.our-location .container{
+    padding: 50px 50px;
+    margin-bottom: 50px;
+    margin-top:50px ;
+
+}
+
+.our-Location-text{
+    padding-right: 50px;
+
+}
+.location-image{
+    padding-left: 50px;
+}
+
+.our-Location-text,.location-image{
+    width: 50%;
+    padding-top: 50px;
+
+}
+
+
+/* 
+
+our-baking  div
+*/
+
+
+.our-baking .container{
+    padding: 50px 50px;
+    margin-bottom: 50px;
+    margin-top:50px ;
+
+}
+.cookies,
+.bagels,
+.superior-breads{
+    width: 33.3333%;
+    padding:30px ;
+}
+
+
+
+
+
+/*
+contact-information
+
+
+*/
+
+.contact-information .container{
+    padding: 50px 50px;
+    margin-bottom: 50px;
+    margin-top:50px ;
+
+}
+.information{
+    padding-right: 50px;
+
+}
+.information ,.map{
+    width: 50%;
+    height: 100%;
+    padding-top: 50px;
+}
+iframe{
+    width: 100%;
+    height: 100%;
+}
+
+
+ /* Footer  */
+.footer{
+    color: white;
+}
+
+ .about-us,
+ .Why-we-are-special ,
+ .opening-hours,.contact-details{
+     width: 25%;
+     padding:30px ;
+ }
+
+
+ .contact-details li,
+ .Why-we-are-special li,
+ .opening-hours li{
+    color:#e4ded4;
+    font-size: 14px;
+    padding: 20px 0px;
+    border-bottom: #000 solid 1px;
+} 
+.about-us li{
+    color:#e4ded4;
+    font-size: 14px;
+    padding: 20px 0px;
+}
+.footer li{
+    color:#e4ded4;
+    font-size: 14px;
+
+}
+
+
+
+/* 
+
+
+
+Bottom Footer
+
+
+*/
+.footer-bottom{
+    color: white;
+    text-align: center;
+
+    position: relative;
+
+}
+.footer-bottom .container{
+
+height: 50vh;
+}
+
+.fa {
+    padding:15px;
+
+    line-height:30px;
+    font-size:30px;
+    margin: 0 5px;
+    text-decoration:none;
+    color: white;
+    background-color: #484540;
+    border-radius: 100%;
+  }
+
+  
+/* Facebook */
+.fa-facebook:hover {
+    background-color: #3B5998;
+  }
+  
+  /* Twitter */
+  .fa-twitter:hover  {
+    background-color: #55ACEE;
+  }
+  .fa-linkedin:hover{
+    background-color:#0072b1
+  }
+  .fa-google-plus:hover{
+  background-color: #db4a39;  
+  }
